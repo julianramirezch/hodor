@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" script that votes 1024 times for your id """
+""" Pgogram level 0"""
 
 import requests
 
