@@ -34,12 +34,13 @@ def check_is_number(number, message):
 
 def usr_input(usr_id, usr_votes):
     valid_number = 'Please valid id: '
+    valid_votes = 'Please valid number: '
     usr_id = 0
     usr_votes = 0
     print('HODOR CHEAT VOTES')
 
     usr_id = check_is_number(input('id: '), valid_number)
-    usr_votes = check_is_number(input('votes: '), valid_number)
+    usr_votes = check_is_number(input('votes: '), valid_votes)
     return usr_id, usr_votes
 
 
