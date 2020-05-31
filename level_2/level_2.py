@@ -22,7 +22,6 @@ def cheat_votes():
     headers = list_dict(headers_list)
     total_votes = int(data_list[1])
 
-
     try:
         for i in range(total_votes):
             r = requests.post("http://158.69.76.135/level2.php", data=data_input, cookies=cookies, headers=headers)
