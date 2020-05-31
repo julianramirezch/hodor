@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" Program vote for you level1 """
+""" Program level 1"""
 
 import requests
 
